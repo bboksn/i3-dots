@@ -193,7 +193,8 @@ bindsym $mod+r mode "resize"
 #bar {
 #        status_command i3status
 #}
-exec_always feh --bg-scale /home/me/Pictures/wallpapers/wallpaper2.jpg
+#exec_always feh --bg-scale /home/me/Pictures/wallpapers/wallpaper2.jpg
+exec_always feh --bg-scale ~/.config/wallpapers/wallpaper2.jpg
 exec_always picom -b
 #: 0)
 #gaps

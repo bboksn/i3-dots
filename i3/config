@@ -55,6 +55,9 @@ bindsym $mod+Return exec kitty
 # kill focused window
 bindsym $mod+q kill
 
+# i3lock
+bindsym $mod+m exec i3lock
+
 #file exp
 bindsym Mod1+e exec thunar
 

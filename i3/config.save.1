@@ -103,7 +103,7 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
+1bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
@@ -197,9 +197,8 @@ bindsym $mod+r mode "resize"
 #        status_command i3status
 #}
 #exec_always feh --bg-scale /home/me/Pictures/wallpapers/wallpaper2.jpg
-exec_always feh --bg-scale ~/.config/wallpapers/wallpaper4.jpg
+exec_always feh --bg-scale ~/.config/wallpapers/wallpaper2.jpg
 exec_always picom -b
-exec_always autotiling
 #: 0)
 #gaps
 gaps outer 10px
@@ -217,5 +216,5 @@ client.background       #ffffff
 
 #border size
 
-for_window [class="^.*"] border pixel 0 
+for_window [class="^.*"] border pixel 1
 
